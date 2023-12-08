@@ -1,0 +1,75 @@
+[
+    {
+      "name": "Alan Judge",
+      "age": 53,
+      "weight": 85,
+      "height": 70,
+      "description": "Recovering from a recent flu, no other chronic conditions.",
+      "patient_photo": "patient2.jpg"
+    },
+    {
+      "name": "Isabelle Sharp",
+      "age": 22,
+      "weight": 56,
+      "height": 63,
+      "description": "Generally healthy, occasional allergies.",
+      "patient_photo": "patient1.jpg"
+    },
+    {
+      "name": "Jeremy Strong",
+      "age": 58,
+      "weight": 83,
+      "height": 72,
+      "description": "Managing hypertension with medication, otherwise stable.",
+      "patient_photo": "patient3.jpg"
+    },
+    {
+      "name": "Samuel Rodriguez",
+      "age": 34,
+      "weight": 78,
+      "height": 68,
+      "description": "Regular exercise routine, no known health issues.",
+      "patient_photo": "patient4.jpg"
+    },
+    {
+      "name": "Ava Thompson",
+      "age": 32,
+      "weight": 55,
+      "height": 63,
+      "description": "Recovering from a recent flu, no other chronic conditions.",
+      "patient_photo": "patient5.jpg"
+    },
+    {
+      "name": "Ethan Foster",
+      "age": 29,
+      "weight": 70,
+      "height": 67,
+      "description": "Seasonal allergies, no other significant health concerns.",
+      "patient_photo": "patient6.jpg"
+    },
+    {
+      "name": "Ryan Mitchell",
+      "age": 35,
+      "weight": 77,
+      "height": 71,
+      "description": "Regular smoker, working on quitting; occasional back pain.",
+      "patient_photo": "patient7.jpg"
+    },
+    {
+      "name": "Sophia Carter",
+      "age": 44,
+      "weight": 58,
+      "height": 62,
+      "description": "Recovered from recent surgery, otherwise in good health.",
+      "patient_photo": "patient8.jpg"
+    },
+    {
+      "name": "Jason Reynolds",
+      "age": 27,
+      "weight": 80,
+      "height": 75,
+      "description": "Regular exercise routine, no known health issues.",
+      "patient_photo": "patient9.jpg"
+    }
+  ]
+  

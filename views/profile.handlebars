@@ -1,0 +1,56 @@
+<div class="row">
+  <div class="col-auto">
+    <h2>Welcome, Dr. {{name}}</h2>
+  </div>
+</div>
+
+<div class="row mt-4">
+  <div class="col-md-6">
+    <h3>New Patient:</h3>
+
+    <form class="form new-patient-form">
+      <div class="form-group">
+        <label for="patient-name">Patient Name:</label>
+        <input class="form-input" type="text" id="patient-name" name="patient-name" />
+      </div>
+      <div class="form-group">
+        <label for="patient-age">Patient Age:</label>
+        <input class="form-input" type="number" id="patient-age" name="patient-age" />
+      </div>
+      <div class="form-group">
+        <label for="patient-weight">Patient Weight:</label>
+        <input class="form-input" type="number" id="patient-weight" name="patient-weight" />
+      </div>
+      <div class="form-group">
+        <label for="patient-height">Patient Height:</label>
+        <input class="form-input" type="number" id="patient-height" name="patient-height" />
+      </div>
+      <div class="form-group">
+        <label for="patient-desc">Description:</label>
+        <textarea class="form-input" id="patient-desc" name="patient-desc"></textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary">Add to Portal</button>
+      </div>
+    </form>
+  </div>
+
+  {{#if patients.length}}
+  <div class="col-md-6 patient-list">
+    <h3>Current Patients:</h3>
+
+    {{#each patients as |patient|}}
+    <div class="row mb-2">
+      <div class="col-md-8">
+        <h4><a href="/patient/{{patient.id}}">{{patient.name}}</a></h4>
+      </div>
+      <div class="col-md-4">
+        <button class="btn btn-sm btn-danger" data-id="{{patient.id}}">REMOVE</button>
+      </div>
+    </div>
+    {{/each}}
+  </div>
+  {{/if}}
+</div>
+
+<script src="./js/profile.js"></script>
